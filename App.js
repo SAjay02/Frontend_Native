@@ -3,6 +3,9 @@ import { StyleSheet, Text, View,SafeAreaView, Platform, ScrollView } from 'react
 import FirstSection from './Components/FirstSection';
 import Top from './Components/Top';
 import Form from './Components/Form';
+import Join from './Components/Join';
+import Certify from './Components/Certify';
+import Contact from './Components/Contact';
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
@@ -10,6 +13,9 @@ export default function App() {
       <Top/>
       <FirstSection/>
       <Form/>
+      <Join/>
+      <Certify/>
+      <Contact/>
       </ScrollView>
     </SafeAreaView>
   );

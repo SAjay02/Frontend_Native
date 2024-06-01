@@ -10,7 +10,7 @@ const FirstSection = () => {
 const styles = StyleSheet.create({
     container:{
         backgroundColor:"#0F1014",
-        height:700
+        height:820
     }
 });
 export default FirstSection

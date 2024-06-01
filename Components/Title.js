@@ -34,11 +34,11 @@ const styles = StyleSheet.create({
         left:10,
         fontFamily:"MaisondeartisanfreeRegular",
         fontSize:20,
-        top:5,
+        top:15,
         fontWeight:"800"
     },
     text1_cont:{
-      top:10,
+      top:30,
       left:10,
       height:30,
       width:180,
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
   point:
   {
      color:"#D2D2D2",
-     top:15,
+     top:45,
      left:20,
      fontSize:14,
      lineHeight:25
