@@ -9,6 +9,7 @@ const FirstSection = () => {
 }
 const styles = StyleSheet.create({
     container:{
+        top:-18,
         backgroundColor:"#0F1014",
         height:820
     }

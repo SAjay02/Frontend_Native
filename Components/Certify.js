@@ -2,7 +2,7 @@ import React from 'react'
 import { StyleSheet, Text, View,SafeAreaView, Platform, TextInput, Button,Image } from 'react-native';
 const Certify = () => {
   return (
-    <View style={{height:480,backgroundColor:"#000000"}}>
+    <View style={{height:480,backgroundColor:"#000000",top:-19}}>
         <View style={{top:20}}>
             <Text style={{textAlign:"center",fontSize:30,color:"white"}}>Get Certified From</Text>
             <Text style={{textAlign:"center",fontSize:30,color:"white"}}>India’s Biggest</Text>
@@ -17,12 +17,12 @@ const Certify = () => {
 const styles = StyleSheet.create({
     container:
     {
-      top:60,
-      left:50,
+      top:20,
+      left:25,
     },
     img_container: {
-      width: 360,
-      height: 250,
+      width: 380,
+      height: 350,
     },
   });
 export default Certify

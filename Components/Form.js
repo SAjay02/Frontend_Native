@@ -22,13 +22,13 @@ const Form = () => {
             </View>
             <Text style={{color:"black",left:20,top:65}}>* Select Your Profession</Text>
         <View style={styles.prof_cont}><TextInput style={{top:4,left:10}}>Choose the most relevent option</TextInput></View>
-        <View style={{left:340,top:20}}><Text style={{position:"absolute",fontSize:25,}}>↓</Text></View>
+        <View style={{left:340,top:35}}><Text style={{position:"absolute",fontSize:25,}}>↓</Text></View>
         <Text style={{color:"black",left:20,top:95}}>* Select Your goal</Text>
         <View style={styles.goal_cont}><TextInput style={{top:4,left:10}}>Choose the most relevent option</TextInput></View>
-        <View style={{left:340,top:28}}><Text style={{position:"absolute",fontSize:25,}}>↓</Text></View>
+        <View style={{left:340,top:65}}><Text style={{position:"absolute",fontSize:25,}}>↓</Text></View>
         <Text style={{color:"black",left:20,top:125}}>* Select Your city</Text>
         <View style={styles.city_cont}><TextInput style={{top:4,left:10}}>Choose the most relevent option</TextInput></View>
-        <View style={{left:340,top:40}}><Text style={{position:"absolute",fontSize:25}}>↓</Text></View>
+        <View style={{left:340,top:100}}><Text style={{position:"absolute",fontSize:25}}>↓</Text></View>
         <View style={{top:160,height:50,width:350,left:20,backgroundColor:"#E84D84",borderRadius:10}}>
             <Text style={{textAlign:"center",top:12,fontSize:15,color:"white"}}>SUBMIT</Text>
         </View>

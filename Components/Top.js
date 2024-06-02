@@ -14,10 +14,11 @@ const styles = StyleSheet.create({
   },
   text:
   {
-    top:-10,
+    top:-35,
     left:180,
     fontFamily:"Inter",
-    color:"#f22922"
+    color:"#f22922",
+    fontWeight:"900"
   },
 });
 export default Top
