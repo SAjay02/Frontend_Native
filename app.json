@@ -18,7 +18,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ajay_31.Frontend_Native"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -27,9 +28,22 @@
       [
         "expo-font",
         {
-          "fonts": ["./assets/fonts/MaisondeartisanfreeRegular-qZl52.otf"]
+          "fonts": [
+            "./assets/fonts/MaisondeartisanfreeRegular-qZl52.otf"
+          ]
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "082c1a52-9efe-4935-a229-c2e3b2203f66"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/082c1a52-9efe-4935-a229-c2e3b2203f66"
+    }
   }
 }
